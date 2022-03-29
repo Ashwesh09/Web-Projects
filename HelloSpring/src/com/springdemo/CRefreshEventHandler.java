@@ -7,7 +7,7 @@ import org.springframework.context.event.ContextStoppedEvent;
 public class CRefreshEventHandler implements ApplicationListener<ContextRefreshedEvent> {
 
 	public void onApplicationEvent(ContextRefreshedEvent event) {
-		// Test Comment
+		// Test Comments
 		System.out.println("Refreshed at :"+event.getTimestamp()+ " msec");
 		
 	}
