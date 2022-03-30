@@ -16,8 +16,12 @@ public class SalaryAccount extends BankAccount {
 		ApplicationContext context = new ClassPathXmlApplicationContext("ConfigureData.xml");
 		WithdrawalEventPublisher publisher = (WithdrawalEventPublisher) context.getBean("withdrawalEventPublisher");
 		if (amount > 100000) {
-			System.out.println("Amount exceds your account balance.");
-			return getAccBalance();
+			System.out.println("Amount excceds your max withdrawal limit (INR 1,00,000).");
+			return this.getAccBalance();
+		}
+		else if(amount > this.getAccBalance()) {
+			System.out.println("Amount exceeds balance.");
+			return this.getAccBalance();
 		}
 		publisher.publish(amount,this.getAccBalance());
 		this.setAccBalance(this.getAccBalance() - amount);

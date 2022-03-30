@@ -16,6 +16,10 @@ public class SavingsAccount extends BankAccount {
 		ApplicationContext context = new ClassPathXmlApplicationContext("ConfigureData.xml");
 		WithdrawalEventPublisher publisher = (WithdrawalEventPublisher) context.getBean("withdrawalEventPublisher");
 		if(amount > 30000.0) {
+			System.out.println("Amount exceeds Max withdrawal limit (INR 30,000).");
+			return this.getAccBalance();
+		}
+		else if(amount > this.getAccBalance()) {
 			System.out.println("Amount exceeds balance.");
 			return this.getAccBalance();
 		}
