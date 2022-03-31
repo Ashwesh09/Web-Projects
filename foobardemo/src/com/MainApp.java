@@ -13,3 +13,4 @@ public class MainApp {
 		bar.processFooName();
 	}
 }
+
