@@ -2,12 +2,18 @@ package com.springboot.workers.springjdbcexample.controllers;
 
 
 import java.util.List;
+import java.util.Map;
 
 import javax.annotation.Resource;
 
-
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.springboot.workers.springjdbcexample.models.Worker;
@@ -24,32 +30,33 @@ public class WorkerController {
 	private WorkerRepository workerRepository;
 
 	
-	@GetMapping({"/showWorker"})
-	public Worker showInfo() {
-		return workerRepository.getWorkerById(5);
+	@GetMapping({"/worker/{id}"})
+	public Worker showInfo(@PathVariable Integer id) {
+		return workerRepository.getWorkerById(id);
 	}
 	
-	@GetMapping("/all/showWorkers")
+	@GetMapping("/all")
 	public List<Worker> showAllWorkers() {
-		return workerRepository.getAllWorkers();
+		return workerRepository.getAllWorkers();	
 	}
 	
-	@GetMapping("/createWorker")
-	public String createWorker() {
-		Worker worker1 = new Worker(21, "Ashwesh", "a.a@my_org.in");
-		workerRepository.create(worker1);
-		return "Created worker "+ worker1.getFirstName() + "'s record.";
+	@PostMapping("/create")
+	@ResponseStatus(HttpStatus.CREATED)
+	public String createWorker(@RequestBody Worker worker) {
+		workerRepository.create(worker);
+		return "Created worker "+ worker.getFirstName() + "'s record.";
 	}
-	@GetMapping("/updateWorker")
-	public String updateWorker() {
-		Worker worker1 = new Worker(21, "Saitama", "s.s@my_org.in");
-		workerRepository.update(worker1);
-		return "Updated worker "+ worker1.getFirstName() + "'s record.";
+	@PatchMapping("/update/{id}")
+	public String updateWorker(@PathVariable Integer id,@RequestBody Map<String,String> requestBody) {
+		Worker worker = workerRepository.getWorkerById(id);
+		worker.setEmail(requestBody.get("email"));
+		workerRepository.update(worker);
+		return "Updated worker "+ worker.getFirstName() + "'s record.<br/>With email: " + workerRepository.getWorkerById(id).getEmail();
 	}
 	
-	@GetMapping("/deleteWorker")
-	public String deleteWorker() {
-		workerRepository.delete(21);
-		return "Deleted worker " + 21 + "'s record.";
+	@GetMapping("/delete/{id}")
+	public String deleteWorker(@PathVariable Integer id) {
+		workerRepository.delete(id);
+		return "Deleted worker " + id + "'s record.";
 	}
 }
