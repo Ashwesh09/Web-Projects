@@ -1,79 +1,43 @@
-2022-04-01 11:53:18.775  INFO 14252 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Starting SpringbootjdbctemplateApplication using Java 17.0.2 on AshweshPC with PID 14252 (D:\Web Projects\springbootjdbctemplate\target\classes started by ASUS in D:\Web Projects\springbootjdbctemplate)
-2022-04-01 11:53:18.781  INFO 14252 --- [main] .s.w.s.SpringbootjdbctemplateApplication : No active profile set, falling back to 1 default profile: "default"
-2022-04-01 11:53:20.881  INFO 14252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-04-01 11:53:20.896  INFO 14252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-04-01 11:53:20.897  INFO 14252 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2022-04-01 11:53:21.088  INFO 14252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-04-01 11:53:21.089  INFO 14252 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2208 ms
-2022-04-01 11:53:22.231  INFO 14252 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2022-04-01 11:53:22.311  INFO 14252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-04-01 11:53:22.336  INFO 14252 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Started SpringbootjdbctemplateApplication in 4.291 seconds (JVM running for 5.64)
-2022-04-01 11:53:24.536  INFO 14252 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-04-01 11:53:24.537  INFO 14252 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-04-01 11:53:24.539  INFO 14252 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2022-04-01 11:54:45.982  INFO 14252 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-04-01 11:54:46.392  INFO 14252 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-04-01 11:54:46.487  INFO 14252 --- [http-nio-8080-exec-3] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in update opertion.
-2022-04-01 11:55:23.596  INFO 14252 --- [http-nio-8080-exec-4] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in delete opertion.
-2022-04-01 11:55:33.134  INFO 14252 --- [http-nio-8080-exec-5] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in delete opertion.
-2022-04-01 11:55:35.428  INFO 14252 --- [http-nio-8080-exec-6] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in delete opertion.
-2022-04-01 11:59:29.061  INFO 14252 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-04-01 11:59:29.102  INFO 14252 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-04-01 11:59:29.113  INFO 14252 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-04-01 12:18:27.046  INFO 20820 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Starting SpringbootjdbctemplateApplication using Java 17.0.2 on AshweshPC with PID 20820 (D:\Web Projects\springbootjdbctemplate\target\classes started by ASUS in D:\Web Projects\springbootjdbctemplate)
-2022-04-01 12:18:27.049  INFO 20820 --- [main] .s.w.s.SpringbootjdbctemplateApplication : No active profile set, falling back to 1 default profile: "default"
-2022-04-01 12:18:28.474  INFO 20820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-04-01 12:18:28.484  INFO 20820 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-04-01 12:18:28.485  INFO 20820 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2022-04-01 12:18:28.627  INFO 20820 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-04-01 12:18:28.627  INFO 20820 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1499 ms
-2022-04-01 12:18:29.511  INFO 20820 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2022-04-01 12:18:29.574  INFO 20820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-04-01 12:18:29.592  INFO 20820 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Started SpringbootjdbctemplateApplication in 3.086 seconds (JVM running for 4.031)
-2022-04-01 12:18:31.784  INFO 20820 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-04-01 12:18:31.785  INFO 20820 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-04-01 12:18:31.788  INFO 20820 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2022-04-01 12:18:49.400  INFO 20820 --- [http-nio-8080-exec-2] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getAllWorker opertion.
-2022-04-01 12:18:49.407  INFO 20820 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-04-01 12:18:49.631  INFO 20820 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-04-01 12:19:09.623  INFO 20820 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-04-01 12:19:09.657  INFO 20820 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-04-01 12:19:09.671  INFO 20820 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-04-01 12:19:44.871  INFO 5676 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Starting SpringbootjdbctemplateApplication using Java 17.0.2 on AshweshPC with PID 5676 (D:\Web Projects\springbootjdbctemplate\target\classes started by ASUS in D:\Web Projects\springbootjdbctemplate)
-2022-04-01 12:19:44.875  INFO 5676 --- [main] .s.w.s.SpringbootjdbctemplateApplication : No active profile set, falling back to 1 default profile: "default"
-2022-04-01 12:19:46.448  INFO 5676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-04-01 12:19:46.462  INFO 5676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-04-01 12:19:46.462  INFO 5676 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2022-04-01 12:19:46.565  INFO 5676 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-04-01 12:19:46.565  INFO 5676 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1644 ms
-2022-04-01 12:19:47.489  INFO 5676 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2022-04-01 12:19:47.566  INFO 5676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-04-01 12:19:47.594  INFO 5676 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Started SpringbootjdbctemplateApplication in 3.157 seconds (JVM running for 4.098)
-2022-04-01 12:19:49.462  INFO 5676 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-04-01 12:19:49.463  INFO 5676 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-04-01 12:19:49.464  INFO 5676 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-04-01 12:19:57.433  INFO 5676 --- [http-nio-8080-exec-1] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getAllWorker opertion.
-2022-04-01 12:19:57.441  INFO 5676 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-04-01 12:19:57.675  INFO 5676 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-04-01 12:20:04.738  INFO 5676 --- [http-nio-8080-exec-2] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in create opertion.
-2022-04-01 12:20:08.410 ERROR 5676 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO worker VALUES( ? , ? , ? , ? , ? , ? , ? );]; Duplicate entry '21' for key 'worker.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '21' for key 'worker.PRIMARY'] with root cause
+2022-04-04 21:23:47.877  INFO 11536 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Starting SpringbootjdbctemplateApplication using Java 17.0.2 on AshweshPC with PID 11536 (D:\Web Projects\springbootjdbctemplate\target\classes started by ASUS in D:\Web Projects\springbootjdbctemplate)
+2022-04-04 21:23:47.883  INFO 11536 --- [main] .s.w.s.SpringbootjdbctemplateApplication : No active profile set, falling back to 1 default profile: "default"
+2022-04-04 21:23:49.803  INFO 11536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-04 21:23:49.820  INFO 11536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-04 21:23:49.821  INFO 11536 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-04 21:23:49.919  INFO 11536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-04 21:23:49.919  INFO 11536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1958 ms
+2022-04-04 21:23:50.957  INFO 11536 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-04 21:23:51.008  INFO 11536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-04 21:23:51.026  INFO 11536 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Started SpringbootjdbctemplateApplication in 3.684 seconds (JVM running for 4.564)
+2022-04-04 21:23:51.766  INFO 11536 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-04 21:23:51.766  INFO 11536 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-04 21:23:51.768  INFO 11536 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-04 21:24:32.624  INFO 11536 --- [http-nio-8080-exec-2] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
+2022-04-04 21:24:32.631  INFO 11536 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-04 21:24:33.827 ERROR 11536 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
 
-java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '21' for key 'worker.PRIMARY'
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+java.sql.SQLException: Access denied for user 'ashwesh'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.28.jar:8.0.28]
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1098) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1046) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1371) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1031) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-4.0.3.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:na]
-	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$2(JdbcTemplate.java:965) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:651) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:960) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1015) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1025) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at com.springboot.workers.springjdbcexample.repository.WorkerRepository.create(WorkerRepository.java:31) ~[classes/:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:646) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:713) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:744) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:757) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:879) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at com.springboot.workers.springjdbcexample.repository.WorkerRepository.getWorkerById(WorkerRepository.java:49) ~[classes/:na]
 	at com.springboot.workers.springjdbcexample.repository.WorkerRepository$$FastClassBySpringCGLIB$$a5b778c5.invoke(<generated>) ~[classes/:na]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.17.jar:5.3.17]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.17.jar:5.3.17]
@@ -83,8 +47,8 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '21' for key 
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.17.jar:5.3.17]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.17.jar:5.3.17]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.17.jar:5.3.17]
-	at com.springboot.workers.springjdbcexample.repository.WorkerRepository$$EnhancerBySpringCGLIB$$1946fdc5.create(<generated>) ~[classes/:na]
-	at com.springboot.workers.springjdbcexample.controllers.WorkerController.createWorker(WorkerController.java:40) ~[classes/:na]
+	at com.springboot.workers.springjdbcexample.repository.WorkerRepository$$EnhancerBySpringCGLIB$$fbaa7e8d.getWorkerById(<generated>) ~[classes/:na]
+	at com.springboot.workers.springjdbcexample.controllers.WorkerController.showInfo(WorkerController.java:35) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -140,120 +104,31 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '21' for key 
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
-2022-04-01 12:20:12.900  INFO 5676 --- [http-nio-8080-exec-4] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in delete opertion.
-2022-04-01 12:20:17.982  INFO 5676 --- [http-nio-8080-exec-5] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in create opertion.
-2022-04-01 12:20:21.922  INFO 5676 --- [http-nio-8080-exec-6] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in update opertion.
-2022-04-01 12:25:54.207  INFO 5676 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-04-01 12:25:54.247  INFO 5676 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-04-01 12:25:54.258  INFO 5676 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-04-01 13:31:57.346  INFO 13332 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Starting SpringbootjdbctemplateApplication using Java 17.0.2 on AshweshPC with PID 13332 (D:\Web Projects\springbootjdbctemplate\target\classes started by ASUS in D:\Web Projects\springbootjdbctemplate)
-2022-04-01 13:31:57.349  INFO 13332 --- [main] .s.w.s.SpringbootjdbctemplateApplication : No active profile set, falling back to 1 default profile: "default"
-2022-04-01 13:31:58.901  INFO 13332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-04-01 13:31:58.919  INFO 13332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-04-01 13:31:58.920  INFO 13332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2022-04-01 13:31:59.027  INFO 13332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-04-01 13:31:59.028  INFO 13332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1601 ms
-2022-04-01 13:31:59.855  INFO 13332 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2022-04-01 13:31:59.911  INFO 13332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-04-01 13:31:59.930  INFO 13332 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Started SpringbootjdbctemplateApplication in 3.087 seconds (JVM running for 3.958)
-2022-04-01 13:32:01.237  INFO 13332 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-04-01 13:32:01.238  INFO 13332 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-04-01 13:32:01.243  INFO 13332 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2022-04-01 13:32:36.472  INFO 13332 --- [http-nio-8080-exec-3] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 13:32:36.482  INFO 13332 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-04-01 13:32:36.734  INFO 13332 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-04-01 13:34:20.736  INFO 13332 --- [http-nio-8080-exec-6] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in update opertion.
-2022-04-01 13:36:55.099  WARN 13332 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Integer` from Object value (token `JsonToken.START_OBJECT`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.lang.Integer` from Object value (token `JsonToken.START_OBJECT`)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 1]]
-2022-04-01 13:37:21.403  WARN 13332 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
-2022-04-01 13:41:34.884  INFO 13332 --- [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-04-01 13:41:34.926  INFO 13332 --- [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-04-01 13:41:34.938  INFO 13332 --- [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-04-01 13:41:41.278  INFO 21128 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Starting SpringbootjdbctemplateApplication using Java 17.0.2 on AshweshPC with PID 21128 (D:\Web Projects\springbootjdbctemplate\target\classes started by ASUS in D:\Web Projects\springbootjdbctemplate)
-2022-04-01 13:41:41.282  INFO 21128 --- [main] .s.w.s.SpringbootjdbctemplateApplication : No active profile set, falling back to 1 default profile: "default"
-2022-04-01 13:41:42.807  INFO 21128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-04-01 13:41:42.835  INFO 21128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-04-01 13:41:42.835  INFO 21128 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2022-04-01 13:41:42.953  INFO 21128 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-04-01 13:41:42.954  INFO 21128 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1611 ms
-2022-04-01 13:41:43.811  INFO 21128 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2022-04-01 13:41:43.869  INFO 21128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-04-01 13:41:43.887  INFO 21128 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Started SpringbootjdbctemplateApplication in 3.118 seconds (JVM running for 4.026)
-2022-04-01 13:41:45.113  INFO 21128 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-04-01 13:41:45.114  INFO 21128 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-04-01 13:41:45.114  INFO 21128 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-04-01 13:41:52.182  WARN 21128 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2022-04-01 13:42:03.759  WARN 21128 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2022-04-01 13:42:17.070  INFO 21128 --- [http-nio-8080-exec-5] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 13:42:17.077  INFO 21128 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-04-01 13:42:17.348  INFO 21128 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-04-01 13:42:33.915  WARN 21128 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2022-04-01 13:43:26.488  WARN 21128 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2022-04-01 13:47:08.167  INFO 21128 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-04-01 13:47:08.211  INFO 21128 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-04-01 13:47:08.222  INFO 21128 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-04-01 13:47:16.035  INFO 16160 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Starting SpringbootjdbctemplateApplication using Java 17.0.2 on AshweshPC with PID 16160 (D:\Web Projects\springbootjdbctemplate\target\classes started by ASUS in D:\Web Projects\springbootjdbctemplate)
-2022-04-01 13:47:16.040  INFO 16160 --- [main] .s.w.s.SpringbootjdbctemplateApplication : No active profile set, falling back to 1 default profile: "default"
-2022-04-01 13:47:17.771  INFO 16160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-04-01 13:47:17.781  INFO 16160 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-04-01 13:47:17.781  INFO 16160 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2022-04-01 13:47:17.897  INFO 16160 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-04-01 13:47:17.897  INFO 16160 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1761 ms
-2022-04-01 13:47:18.755  INFO 16160 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2022-04-01 13:47:18.826  INFO 16160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-04-01 13:47:18.854  INFO 16160 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Started SpringbootjdbctemplateApplication in 3.38 seconds (JVM running for 4.231)
-2022-04-01 13:47:20.757  INFO 16160 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-04-01 13:47:20.757  INFO 16160 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-04-01 13:47:20.758  INFO 16160 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-04-01 13:47:57.490  INFO 16160 --- [http-nio-8080-exec-2] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 13:47:57.496  INFO 16160 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-04-01 13:47:57.723  INFO 16160 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-04-01 13:48:01.212  INFO 16160 --- [http-nio-8080-exec-3] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 13:48:04.698  INFO 16160 --- [http-nio-8080-exec-4] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 13:48:25.759  INFO 16160 --- [http-nio-8080-exec-6] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 13:48:30.788  INFO 16160 --- [http-nio-8080-exec-7] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 13:48:52.507  INFO 16160 --- [http-nio-8080-exec-8] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in delete opertion.
-2022-04-01 13:49:04.020  INFO 16160 --- [http-nio-8080-exec-9] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in delete opertion.
-2022-04-01 13:58:02.405  INFO 16160 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-04-01 13:58:02.444  INFO 16160 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-04-01 13:58:02.462  INFO 16160 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-04-01 14:12:31.007  INFO 12156 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Starting SpringbootjdbctemplateApplication using Java 17.0.2 on AshweshPC with PID 12156 (D:\Web Projects\springbootjdbctemplate\target\classes started by ASUS in D:\Web Projects\springbootjdbctemplate)
-2022-04-01 14:12:31.010  INFO 12156 --- [main] .s.w.s.SpringbootjdbctemplateApplication : No active profile set, falling back to 1 default profile: "default"
-2022-04-01 14:12:32.330  INFO 12156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-04-01 14:12:32.340  INFO 12156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-04-01 14:12:32.340  INFO 12156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2022-04-01 14:12:32.450  INFO 12156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-04-01 14:12:32.450  INFO 12156 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1369 ms
-2022-04-01 14:12:33.207  INFO 12156 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2022-04-01 14:12:33.265  INFO 12156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-04-01 14:12:33.285  INFO 12156 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Started SpringbootjdbctemplateApplication in 2.803 seconds (JVM running for 3.548)
-2022-04-01 14:12:34.130  INFO 12156 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-04-01 14:12:34.130  INFO 12156 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-04-01 14:12:34.132  INFO 12156 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-04-01 14:12:51.815  INFO 12156 --- [http-nio-8080-exec-1] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 14:12:51.822  INFO 12156 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-04-01 14:12:52.056  INFO 12156 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-04-01 14:13:32.609  INFO 12156 --- [http-nio-8080-exec-5] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getAllWorker opertion.
-2022-04-01 14:14:44.538  WARN 12156 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2022-04-01 14:15:13.197  WARN 12156 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2022-04-01 14:16:28.341  INFO 12156 --- [http-nio-8080-exec-1] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in create opertion.
-2022-04-01 14:16:46.993 ERROR 12156 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO worker VALUES( ? , ? , ? , ? , ? , ? , ? );]; Duplicate entry '21' for key 'worker.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '21' for key 'worker.PRIMARY'] with root cause
+2022-04-04 21:24:33.836 ERROR 11536 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'ashwesh'@'localhost' (using password: YES)] with root cause
 
-java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '21' for key 'worker.PRIMARY'
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+java.sql.SQLException: Access denied for user 'ashwesh'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.28.jar:8.0.28]
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1098) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1046) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1371) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1031) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-4.0.3.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:na]
-	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$2(JdbcTemplate.java:965) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:651) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:960) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1015) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1025) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at com.springboot.workers.springjdbcexample.repository.WorkerRepository.create(WorkerRepository.java:31) ~[classes/:na]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.28.jar:8.0.28]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:646) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:713) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:744) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:757) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:879) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at com.springboot.workers.springjdbcexample.repository.WorkerRepository.getWorkerById(WorkerRepository.java:49) ~[classes/:na]
 	at com.springboot.workers.springjdbcexample.repository.WorkerRepository$$FastClassBySpringCGLIB$$a5b778c5.invoke(<generated>) ~[classes/:na]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.17.jar:5.3.17]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.17.jar:5.3.17]
@@ -263,8 +138,8 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '21' for key 
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.17.jar:5.3.17]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.17.jar:5.3.17]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.17.jar:5.3.17]
-	at com.springboot.workers.springjdbcexample.repository.WorkerRepository$$EnhancerBySpringCGLIB$$6569ad0f.create(<generated>) ~[classes/:na]
-	at com.springboot.workers.springjdbcexample.controllers.WorkerController.createWorker(WorkerController.java:45) ~[classes/:na]
+	at com.springboot.workers.springjdbcexample.repository.WorkerRepository$$EnhancerBySpringCGLIB$$fbaa7e8d.getWorkerById(<generated>) ~[classes/:na]
+	at com.springboot.workers.springjdbcexample.controllers.WorkerController.showInfo(WorkerController.java:35) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -278,8 +153,8 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '21' for key 
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.17.jar:5.3.17]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.17.jar:5.3.17]
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.17.jar:5.3.17]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.17.jar:5.3.17]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.17.jar:5.3.17]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.17.jar:5.3.17]
 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
@@ -320,35 +195,57 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '21' for key 
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
-2022-04-01 14:17:11.567  WARN 12156 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-04-01 14:17:15.670  INFO 12156 --- [http-nio-8080-exec-6] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in delete opertion.
-2022-04-01 14:17:30.875  INFO 12156 --- [http-nio-8080-exec-7] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in create opertion.
-2022-04-01 14:18:45.341  INFO 12156 --- [http-nio-8080-exec-9] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 14:18:45.346 ERROR 12156 --- [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: PreparedStatementCallback; SQL [UPDATE worker SET
-worker_id = ?,
-first_name = ? ,
-last_name = ? ,
-salary = ?,
-joining_date =  ? ,
-department = ? ,
-email = ?
-WHERE worker_id = ?]; Data truncation: Data too long for column 'email' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1] with root cause
+2022-04-04 21:25:17.111  INFO 11536 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-04 21:25:49.494  INFO 16628 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Starting SpringbootjdbctemplateApplication using Java 17.0.2 on AshweshPC with PID 16628 (D:\Web Projects\springbootjdbctemplate\target\classes started by ASUS in D:\Web Projects\springbootjdbctemplate)
+2022-04-04 21:25:49.497  INFO 16628 --- [main] .s.w.s.SpringbootjdbctemplateApplication : No active profile set, falling back to 1 default profile: "default"
+2022-04-04 21:25:50.498  INFO 16628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-04 21:25:50.508  INFO 16628 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-04 21:25:50.508  INFO 16628 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-04 21:25:50.599  INFO 16628 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-04 21:25:50.600  INFO 16628 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1060 ms
+2022-04-04 21:25:51.259  INFO 16628 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-04 21:25:51.310  INFO 16628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-04 21:25:51.327  INFO 16628 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Started SpringbootjdbctemplateApplication in 2.155 seconds (JVM running for 2.83)
+2022-04-04 21:25:52.121  INFO 16628 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-04 21:25:52.122  INFO 16628 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-04 21:25:52.123  INFO 16628 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-04 21:25:57.634  INFO 16628 --- [http-nio-8080-exec-1] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
+2022-04-04 21:25:57.639  INFO 16628 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-04 21:25:57.853  INFO 16628 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-04 21:26:18.075  INFO 16628 --- [http-nio-8080-exec-3] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in create opertion.
+2022-04-04 21:26:23.102  INFO 16628 --- [http-nio-8080-exec-4] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in delete opertion.
+2022-04-04 21:27:54.836  INFO 16628 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-04 21:27:54.863  INFO 16628 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-04 21:27:54.872  INFO 16628 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-04 22:00:50.271  INFO 14452 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Starting SpringbootjdbctemplateApplication using Java 17.0.2 on AshweshPC with PID 14452 (D:\Web Projects\springbootjdbctemplate\target\classes started by ASUS in D:\Web Projects\springbootjdbctemplate)
+2022-04-04 22:00:50.273  INFO 14452 --- [main] .s.w.s.SpringbootjdbctemplateApplication : No active profile set, falling back to 1 default profile: "default"
+2022-04-04 22:00:51.173  INFO 14452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-04 22:00:51.180  INFO 14452 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-04 22:00:51.180  INFO 14452 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-04 22:00:51.257  INFO 14452 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-04 22:00:51.258  INFO 14452 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 940 ms
+2022-04-04 22:00:51.788  INFO 14452 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-04 22:00:51.825  INFO 14452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-04 22:00:51.838  INFO 14452 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Started SpringbootjdbctemplateApplication in 1.922 seconds (JVM running for 2.585)
+2022-04-04 22:00:52.432  INFO 14452 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-04 22:00:52.432  INFO 14452 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-04 22:00:52.433  INFO 14452 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-04 22:02:15.093  INFO 14452 --- [http-nio-8080-exec-2] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
+2022-04-04 22:02:15.099  INFO 14452 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-04 22:02:15.296  INFO 14452 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-04 22:02:22.250  INFO 14452 --- [http-nio-8080-exec-3] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in delete opertion.
+2022-04-04 22:02:27.666  INFO 14452 --- [http-nio-8080-exec-4] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in create opertion.
+2022-04-04 22:02:31.222  INFO 14452 --- [http-nio-8080-exec-5] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
+2022-04-04 22:02:31.226  INFO 14452 --- [http-nio-8080-exec-5] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in update opertion.
+2022-04-04 22:02:34.946  INFO 14452 --- [http-nio-8080-exec-6] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in delete opertion.
+2022-04-04 22:02:38.916  INFO 14452 --- [http-nio-8080-exec-7] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
+2022-04-04 22:02:38.926 ERROR 14452 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0] with root cause
 
-com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1098) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1046) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1371) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1031) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-4.0.3.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:na]
-	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$2(JdbcTemplate.java:965) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:651) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:960) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1015) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1025) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at com.springboot.workers.springjdbcexample.repository.WorkerRepository.update(WorkerRepository.java:76) ~[classes/:na]
+org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0
+	at org.springframework.dao.support.DataAccessUtils.nullableSingleResult(DataAccessUtils.java:97) ~[spring-tx-5.3.17.jar:5.3.17]
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:880) ~[spring-jdbc-5.3.17.jar:5.3.17]
+	at com.springboot.workers.springjdbcexample.repository.WorkerRepository.getWorkerById(WorkerRepository.java:50) ~[classes/:na]
+	at com.springboot.workers.springjdbcexample.repository.WorkerRepository.updateWorkerByEmail(WorkerRepository.java:102) ~[classes/:na]
 	at com.springboot.workers.springjdbcexample.repository.WorkerRepository$$FastClassBySpringCGLIB$$a5b778c5.invoke(<generated>) ~[classes/:na]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.17.jar:5.3.17]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.17.jar:5.3.17]
@@ -358,8 +255,9 @@ com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.17.jar:5.3.17]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.17.jar:5.3.17]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.17.jar:5.3.17]
-	at com.springboot.workers.springjdbcexample.repository.WorkerRepository$$EnhancerBySpringCGLIB$$6569ad0f.update(<generated>) ~[classes/:na]
-	at com.springboot.workers.springjdbcexample.controllers.WorkerController.updateWorker(WorkerController.java:52) ~[classes/:na]
+	at com.springboot.workers.springjdbcexample.repository.WorkerRepository$$EnhancerBySpringCGLIB$$ccdfcdc6.updateWorkerByEmail(<generated>) ~[classes/:na]
+	at com.springboot.workers.springjdbcexample.services.WorkerService.updateWorkerEmailId(WorkerService.java:32) ~[classes/:na]
+	at com.springboot.workers.springjdbcexample.controllers.WorkerController.updateWorker(WorkerController.java:51) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -413,176 +311,6 @@ com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
-2022-04-01 14:19:02.890  WARN 12156 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.springboot.workers.springjdbcexample.controllers.WorkerController.updateWorker(java.lang.Integer,java.lang.String)]
-2022-04-01 14:19:49.754  WARN 12156 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2022-04-01 14:20:24.012  INFO 12156 --- [http-nio-8080-exec-3] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in delete opertion.
-2022-04-01 14:22:39.665  INFO 12156 --- [http-nio-8080-exec-8] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getAllWorker opertion.
-2022-04-01 14:23:17.896  INFO 12156 --- [http-nio-8080-exec-9] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in create opertion.
-2022-04-01 14:24:03.611  INFO 12156 --- [http-nio-8080-exec-10] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 14:24:03.624  INFO 12156 --- [http-nio-8080-exec-10] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in update opertion.
-2022-04-01 14:24:03.624  INFO 12156 --- [http-nio-8080-exec-10] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 14:27:47.365  INFO 12156 --- [http-nio-8080-exec-4] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 14:27:47.381  INFO 12156 --- [http-nio-8080-exec-4] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in update opertion.
-2022-04-01 14:27:47.382  INFO 12156 --- [http-nio-8080-exec-4] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 14:30:01.667  INFO 12156 --- [http-nio-8080-exec-6] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 14:30:01.679  INFO 12156 --- [http-nio-8080-exec-6] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in update opertion.
-2022-04-01 14:30:01.680  INFO 12156 --- [http-nio-8080-exec-6] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 14:30:50.350  INFO 12156 --- [RMI TCP Connection(25)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-04-01 14:30:50.400  INFO 12156 --- [RMI TCP Connection(25)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-04-01 14:30:50.409  INFO 12156 --- [RMI TCP Connection(25)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-04-01 14:30:55.669  INFO 23316 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Starting SpringbootjdbctemplateApplication using Java 17.0.2 on AshweshPC with PID 23316 (D:\Web Projects\springbootjdbctemplate\target\classes started by ASUS in D:\Web Projects\springbootjdbctemplate)
-2022-04-01 14:30:55.673  INFO 23316 --- [main] .s.w.s.SpringbootjdbctemplateApplication : No active profile set, falling back to 1 default profile: "default"
-2022-04-01 14:30:57.305  INFO 23316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-04-01 14:30:57.315  INFO 23316 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-04-01 14:30:57.315  INFO 23316 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2022-04-01 14:30:57.425  INFO 23316 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-04-01 14:30:57.426  INFO 23316 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1666 ms
-2022-04-01 14:30:58.422  INFO 23316 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2022-04-01 14:30:58.487  INFO 23316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-04-01 14:30:58.507  INFO 23316 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Started SpringbootjdbctemplateApplication in 3.581 seconds (JVM running for 4.68)
-2022-04-01 14:30:59.845  INFO 23316 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-04-01 14:30:59.845  INFO 23316 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-04-01 14:30:59.846  INFO 23316 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-04-01 14:31:21.427  INFO 23316 --- [http-nio-8080-exec-1] c.s.w.s.controllers.WorkerController     : ashwesh.ngp@gmail.com
-2022-04-01 14:31:21.463  INFO 23316 --- [http-nio-8080-exec-1] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 14:31:21.471  INFO 23316 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-04-01 14:31:21.843  INFO 23316 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-04-01 14:31:21.952  INFO 23316 --- [http-nio-8080-exec-1] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in update opertion.
-2022-04-01 14:31:21.952  INFO 23316 --- [http-nio-8080-exec-1] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 14:31:45.004  INFO 23316 --- [http-nio-8080-exec-3] c.s.w.s.controllers.WorkerController     : ashwesh.ngp@gmail.com
-2022-04-01 14:31:45.005  INFO 23316 --- [http-nio-8080-exec-3] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 14:31:45.015  INFO 23316 --- [http-nio-8080-exec-3] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in update opertion.
-2022-04-01 14:31:45.016  INFO 23316 --- [http-nio-8080-exec-3] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 14:38:11.843  INFO 23316 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-04-01 14:38:11.942  INFO 23316 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-04-01 14:38:11.975  INFO 23316 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-04-01 14:38:16.614  INFO 18032 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Starting SpringbootjdbctemplateApplication using Java 17.0.2 on AshweshPC with PID 18032 (D:\Web Projects\springbootjdbctemplate\target\classes started by ASUS in D:\Web Projects\springbootjdbctemplate)
-2022-04-01 14:38:16.620  INFO 18032 --- [main] .s.w.s.SpringbootjdbctemplateApplication : No active profile set, falling back to 1 default profile: "default"
-2022-04-01 14:38:18.236  INFO 18032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-04-01 14:38:18.250  INFO 18032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-04-01 14:38:18.251  INFO 18032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2022-04-01 14:38:18.413  INFO 18032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-04-01 14:38:18.414  INFO 18032 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1713 ms
-2022-04-01 14:38:19.424  INFO 18032 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2022-04-01 14:38:19.488  INFO 18032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-04-01 14:38:19.511  INFO 18032 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Started SpringbootjdbctemplateApplication in 3.615 seconds (JVM running for 4.506)
-2022-04-01 14:38:20.880  INFO 18032 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-04-01 14:38:20.881  INFO 18032 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-04-01 14:38:20.883  INFO 18032 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2022-04-01 14:38:25.665  INFO 18032 --- [http-nio-8080-exec-1] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getAllWorker opertion.
-2022-04-01 14:38:25.685  INFO 18032 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-04-01 14:38:26.112  INFO 18032 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-04-01 14:39:00.691  INFO 18032 --- [http-nio-8080-exec-3] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 14:40:15.750  WARN 18032 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2022-04-01 14:40:31.543  WARN 18032 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2022-04-01 14:40:40.128 ERROR 18032 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO worker VALUES( ? , ? , ? , ? , ? , ? , ? );]; Duplicate entry '21' for key 'worker.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '21' for key 'worker.PRIMARY'] with root cause
-
-java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '21' for key 'worker.PRIMARY'
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1098) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1046) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1371) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1031) ~[mysql-connector-java-8.0.28.jar:8.0.28]
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-4.0.3.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:na]
-	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$2(JdbcTemplate.java:965) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:651) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:960) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1015) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1025) ~[spring-jdbc-5.3.17.jar:5.3.17]
-	at com.springboot.workers.springjdbcexample.repository.WorkerRepository.create(WorkerRepository.java:31) ~[classes/:na]
-	at com.springboot.workers.springjdbcexample.repository.WorkerRepository$$FastClassBySpringCGLIB$$a5b778c5.invoke(<generated>) ~[classes/:na]
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.17.jar:5.3.17]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.17.jar:5.3.17]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.17.jar:5.3.17]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.17.jar:5.3.17]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.17.jar:5.3.17]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.17.jar:5.3.17]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.17.jar:5.3.17]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.17.jar:5.3.17]
-	at com.springboot.workers.springjdbcexample.repository.WorkerRepository$$EnhancerBySpringCGLIB$$ddc133f.create(<generated>) ~[classes/:na]
-	at com.springboot.workers.springjdbcexample.controllers.WorkerController.createWorker(WorkerController.java:46) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.17.jar:5.3.17]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.17.jar:5.3.17]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.17.jar:5.3.17]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.17.jar:5.3.17]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.17.jar:5.3.17]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.17.jar:5.3.17]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.17.jar:5.3.17]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.17.jar:5.3.17]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.17.jar:5.3.17]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.17.jar:5.3.17]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.17.jar:5.3.17]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.60.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.60.jar:9.0.60]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.17.jar:5.3.17]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.17.jar:5.3.17]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.17.jar:5.3.17]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.17.jar:5.3.17]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.6.5.jar:2.6.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.17.jar:5.3.17]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.17.jar:5.3.17]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.17.jar:5.3.17]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.60.jar:9.0.60]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2022-04-01 14:41:35.626  INFO 18032 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-04-01 14:41:35.704  INFO 18032 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-04-01 14:41:35.726  INFO 18032 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-04-01 14:41:41.156  INFO 3604 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Starting SpringbootjdbctemplateApplication using Java 17.0.2 on AshweshPC with PID 3604 (D:\Web Projects\springbootjdbctemplate\target\classes started by ASUS in D:\Web Projects\springbootjdbctemplate)
-2022-04-01 14:41:41.162  INFO 3604 --- [main] .s.w.s.SpringbootjdbctemplateApplication : No active profile set, falling back to 1 default profile: "default"
-2022-04-01 14:41:42.610  INFO 3604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-04-01 14:41:42.620  INFO 3604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-04-01 14:41:42.620  INFO 3604 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2022-04-01 14:41:42.750  INFO 3604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-04-01 14:41:42.751  INFO 3604 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1531 ms
-2022-04-01 14:41:43.547  INFO 3604 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2022-04-01 14:41:43.610  INFO 3604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-04-01 14:41:43.617  INFO 3604 --- [main] .s.w.s.SpringbootjdbctemplateApplication : Started SpringbootjdbctemplateApplication in 2.976 seconds (JVM running for 3.849)
-2022-04-01 14:41:43.626  INFO 3604 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-04-01 14:41:43.627  INFO 3604 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-04-01 14:41:43.628  INFO 3604 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-04-01 14:41:47.866  INFO 3604 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-04-01 14:41:48.150  INFO 3604 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-04-01 14:41:48.209  INFO 3604 --- [http-nio-8080-exec-1] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in delete opertion.
-2022-04-01 14:42:55.591  INFO 3604 --- [http-nio-8080-exec-5] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in create opertion.
-2022-04-01 14:44:01.783  WARN 3604 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2022-04-01 14:44:07.059  INFO 3604 --- [http-nio-8080-exec-9] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 14:44:07.096  INFO 3604 --- [http-nio-8080-exec-9] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in update opertion.
-2022-04-01 14:44:07.097  INFO 3604 --- [http-nio-8080-exec-9] c.s.w.s.repository.WorkerRepository      : Hello this is a logger in getWorkerById opertion.
-2022-04-01 14:44:37.013  INFO 3604 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-04-01 14:44:37.059  INFO 3604 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-04-01 14:44:37.072  INFO 3604 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-04 22:03:01.693  INFO 14452 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-04 22:03:01.720  INFO 14452 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-04 22:03:01.729  INFO 14452 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

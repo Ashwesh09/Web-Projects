@@ -24,11 +24,11 @@ public class WorkerRepository implements WorkerDAO {
 	private static final Logger log = LoggerFactory.getLogger(WorkerRepository.class);
 
 	
-	public void create(Worker w) {
+	public Boolean create(Worker w) {
 		String sql = "INSERT INTO worker VALUES( ? , ? , ? , ? , ? , ? , ? );";
                 
 		
-		jdbcTemplateObject.update(sql, 
+		int res = jdbcTemplateObject.update(sql, 
 				w.getWorkerId(),
                 w.getFirstName(),
                 w.getLastName(), 
@@ -39,6 +39,7 @@ public class WorkerRepository implements WorkerDAO {
 		
 		System.out.println("Worker " + w.getFirstName() + "'s record inserted successfully");
 		log.info("Hello this is a logger in create opertion.");
+		return res == 1;
 
 	}
 	
@@ -62,7 +63,7 @@ public class WorkerRepository implements WorkerDAO {
 				);
 	}
 	
-	public void update(Worker w) {	
+	public Boolean update(Worker w) {	
 		String sql = """
                 UPDATE worker SET 
                 worker_id = ?, 
@@ -73,23 +74,54 @@ public class WorkerRepository implements WorkerDAO {
                 department = ? ,
                 email = ?  
                 WHERE worker_id = ? """;
-		jdbcTemplateObject.update(sql, 
-				w.getWorkerId(),
-                w.getFirstName(),
-                w.getLastName(), 
-                w.getSalary(), 
-                w.getJoiningDate(), 
-                w.getDepartment(), 
-                w.getEmail(),
-				w.getWorkerId());
 		System.out.println("Record #" + w.getWorkerId() + " updated!");
 		log.info("Hello this is a logger in update opertion.");
+		int res = jdbcTemplateObject.update(sql, 
+				w.getWorkerId(),
+				w.getFirstName(),
+				w.getLastName(), 
+				w.getSalary(), 
+				w.getJoiningDate(), 
+				w.getDepartment(), 
+				w.getEmail(),
+				w.getWorkerId());
+		return res == 1;
+				
 	}
 	
-	public void delete(Integer id) {
+	public Boolean delete(Integer id) {
 		String sql = "DELETE FROM Worker WHERE worker_id = ?";
-		jdbcTemplateObject.update(sql, id);
+		int res =jdbcTemplateObject.update(sql, id);
 		System.out.println("Record #" + id + " deleted");
 		log.info("Hello this is a logger in delete opertion.");
+		return res == 1;
+	}
+
+	@Override
+	public Boolean updateWorkerByEmail(Integer id, String email) {
+		Worker w = this.getWorkerById(id);
+		w.setEmail(email);
+		String sql = """
+                UPDATE worker SET 
+                worker_id = ?, 
+                first_name = ? , 
+                last_name = ? , 
+                salary = ?, 
+                joining_date =  ? , 
+                department = ? ,
+                email = ?  
+                WHERE worker_id = ? """;
+		System.out.println("Record #" + w.getWorkerId() + " updated!");
+		log.info("Hello this is a logger in update opertion.");
+		int res = jdbcTemplateObject.update(sql, 
+				w.getWorkerId(),
+				w.getFirstName(),
+				w.getLastName(), 
+				w.getSalary(), 
+				w.getJoiningDate(), 
+				w.getDepartment(), 
+				w.getEmail(),
+				w.getWorkerId());
+		return res == 1;
 	}
 }

@@ -6,15 +6,20 @@ import java.util.List;
 import com.springboot.workers.springjdbcexample.models.Worker;
 
 
+/**
+ * @author ASUS
+ *
+ */
 public interface WorkerDAO {
 	
 	/**
 	 * Create a Worker record
 	 * 
 	 * @param Worker Object
+	 * @return 
 	 * @throws SQLException 
 	 */
-	public void create(Worker worker) throws SQLException;
+	public Boolean create(Worker worker) throws SQLException;
 	
 	/**
 	 * Fetches a Worker record corresponding to the Worker id
@@ -38,15 +43,19 @@ public interface WorkerDAO {
 	 * Updates a Worker's age based on their id
 	 * 
 	 * @param Worker Object
+	 * @return 
 	 * @throws SQLException 
 	 */
-	public void update(Worker worker) throws SQLException;
+	public Boolean update(Worker worker) throws SQLException;
 	
 	/**
 	 * Deletes a Worker record based on their id
 	 * 
-	 * @param id Integer
+	 * @param id IntegerS
+	 * @return 
 	 * @throws SQLException 
 	 */
-	public void delete(Integer id) throws SQLException;
+	public Boolean delete(Integer id) throws SQLException;
+	
+	public Boolean updateWorkerByEmail(Integer id, String email);
 }
