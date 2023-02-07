@@ -10,6 +10,7 @@ public class Worker implements Comparable<Worker> {
     private Date joiningDate;
     private String department;
     private String email;
+    private String password;
 
     @Override
     public int compareTo(Worker other) {
@@ -42,7 +43,7 @@ public class Worker implements Comparable<Worker> {
     }
 
     public Worker(int workerId, String firstName, String lastName, int salary, String department,
-            String email) {
+            String email,String password) {
         this.workerId = workerId;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -50,6 +51,7 @@ public class Worker implements Comparable<Worker> {
         this.joiningDate = new Date();
         this.department = department;
         this.email = email;
+        this.password = password;
     }
 
     public Worker(int workerId, String firstName, String email) {
@@ -135,11 +137,19 @@ public class Worker implements Comparable<Worker> {
     public void setEmail(String email) {
         this.email = email;
     }
+    
+    public String getPassword() {
+		return password;
+	}
 
-    @Override
-    public String toString() {
-        return "Worker [department=" + department + ", email=" + email + ", firstName=" + firstName
-                + ", joiningDate=" + joiningDate + ", lastName=" + lastName + ", salary=" + salary + ", workerId="
-                + workerId + "]";
-    }
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	@Override
+	public String toString() {
+		return "Worker [workerId=" + workerId + ", firstName=" + firstName + ", lastName=" + lastName + ", salary="
+				+ salary + ", joiningDate=" + joiningDate + ", department=" + department + ", email=" + email
+				+ ", password=" + password + "]";
+	}
 }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="ISO-8859-1" />
+    <title>Show All Workers</title>
+    <style>
+      .show-workers,.create-worker {
+        background-color: white;
+        color: blue;
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        width: 250px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:auto;
+        margin-bottom:auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-color: blue;
+        border-radius: 10px;
+      }
+      .show-workers:hover,.create-worker:hover {
+        border-color: white;
+        color: rgb(7, 7, 7);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="show-workers" onclick="location.href='http://localhost:8080/worker/all'">Show all workers</button>
+    <button class="create-worker" onclick="location.href='file:///D:/Web%20Projects/springbootjdbctemplate/src/main/resources/CreateWorker.html'">Create a worker</button>
+  </body>
+</html>

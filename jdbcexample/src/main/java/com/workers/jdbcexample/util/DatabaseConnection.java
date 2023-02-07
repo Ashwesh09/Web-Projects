@@ -7,8 +7,8 @@ import java.sql.SQLException;
 
 public class DatabaseConnection{
     private static final String URL = "jdbc:mysql://localhost:3307/my_org";
-    private static final String USER = "ashwesh";
-    private static final String PASS = "*****";
+    private static final String USER = "root";
+    private static final String PASS = "@bcd1234";
     private static Connection conn = null;
     private  DatabaseConnection() {
     }

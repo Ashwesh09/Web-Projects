@@ -25,7 +25,7 @@ public class WorkerRepository implements WorkerDAO {
 
 	
 	public Boolean create(Worker w) {
-		String sql = "INSERT INTO worker VALUES( ? , ? , ? , ? , ? , ? , ? );";
+		String sql = "INSERT INTO worker VALUES( ? , ? , ? , ? , ? , ? , ?, ? );";
                 
 		
 		int res = jdbcTemplateObject.update(sql, 
@@ -35,7 +35,8 @@ public class WorkerRepository implements WorkerDAO {
                 w.getSalary(), 
                 w.getJoiningDate(), 
                 w.getDepartment(), 
-                w.getEmail());
+                w.getEmail(),
+                w.getPassword());
 		
 		System.out.println("Worker " + w.getFirstName() + "'s record inserted successfully");
 		log.info("Hello this is a logger in create opertion.");
@@ -72,7 +73,8 @@ public class WorkerRepository implements WorkerDAO {
                 salary = ?, 
                 joining_date =  ? , 
                 department = ? ,
-                email = ?  
+                email = ?,
+                password = ?  
                 WHERE worker_id = ? """;
 		System.out.println("Record #" + w.getWorkerId() + " updated!");
 		log.info("Hello this is a logger in update opertion.");
@@ -84,6 +86,7 @@ public class WorkerRepository implements WorkerDAO {
 				w.getJoiningDate(), 
 				w.getDepartment(), 
 				w.getEmail(),
+				w.getPassword(),
 				w.getWorkerId());
 		return res == 1;
 				
@@ -109,7 +112,8 @@ public class WorkerRepository implements WorkerDAO {
                 salary = ?, 
                 joining_date =  ? , 
                 department = ? ,
-                email = ?  
+                email = ? ,
+                password = ? 
                 WHERE worker_id = ? """;
 		System.out.println("Record #" + w.getWorkerId() + " updated!");
 		log.info("Hello this is a logger in update opertion.");
@@ -121,6 +125,7 @@ public class WorkerRepository implements WorkerDAO {
 				w.getJoiningDate(), 
 				w.getDepartment(), 
 				w.getEmail(),
+				w.getPassword(),
 				w.getWorkerId());
 		return res == 1;
 	}

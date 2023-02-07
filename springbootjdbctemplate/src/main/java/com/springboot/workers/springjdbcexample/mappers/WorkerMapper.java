@@ -18,6 +18,7 @@ public class WorkerMapper implements RowMapper<Worker> {
 		worker.setJoiningDate(result.getDate("JOINING_DATE"));
 		worker.setDepartment(result.getString("DEPARTMENT"));
 		worker.setEmail(result.getString("email"));
+		worker.setPassword(result.getString("password"));
 		return worker;
 	}
 }

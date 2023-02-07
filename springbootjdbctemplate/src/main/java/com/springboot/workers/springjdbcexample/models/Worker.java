@@ -1,15 +1,16 @@
 package com.springboot.workers.springjdbcexample.models;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class Worker implements Comparable<Worker> {
-    private int workerId;
+    private Integer workerId;
     private String firstName;
     private String lastName;
-    private int salary;
+    private Integer salary;
     private Date joiningDate;
     private String department;
     private String email;
+    private String password;
 
     @Override
     public int compareTo(Worker other) {
@@ -40,24 +41,28 @@ public class Worker implements Comparable<Worker> {
             return false;
         return true;
     }
+    
+    public Worker(int workerId, String firstName, String lastName, int salary, Date joiningDate, String department,
+			String email, String password) {
+		this.workerId = workerId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.salary = salary;
+		this.joiningDate = joiningDate;
+		this.department = department;
+		this.email = email;
+		this.password = password;
+	}
+    
+    public Worker(int workerId, String firstName, Date joiningDate, String email, String password) {
+		super();
+		this.workerId = workerId;
+		this.firstName = firstName;
+		this.joiningDate = joiningDate;
+		this.email = email;
+		this.password = password;
+	}
 
-    public Worker(int workerId, String firstName, String lastName, int salary, String department,
-            String email) {
-        this.workerId = workerId;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.salary = salary;
-        this.joiningDate = new Date();
-        this.department = department;
-        this.email = email;
-    }
-
-    public Worker(int workerId, String firstName, String email) {
-        this.workerId = workerId;
-        this.firstName = firstName;
-        this.email = email;
-        this.joiningDate = new Date();
-    }
 
     public Worker(int workerId, String firstName, Date joiningDate, String email) {
         this.workerId = workerId;
@@ -135,11 +140,19 @@ public class Worker implements Comparable<Worker> {
     public void setEmail(String email) {
         this.email = email;
     }
+    
+    public String getPassword() {
+		return password;
+	}
 
-    @Override
-    public String toString() {
-        return "Worker [department=" + department + ", email=" + email + ", firstName=" + firstName
-                + ", joiningDate=" + joiningDate + ", lastName=" + lastName + ", salary=" + salary + ", workerId="
-                + workerId + "]";
-    }
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	@Override
+	public String toString() {
+		return "Worker [workerId=" + workerId + ", firstName=" + firstName + ", lastName=" + lastName + ", salary="
+				+ salary + ", joiningDate=" + joiningDate + ", department=" + department + ", email=" + email
+				+ ", password=" + password + "]";
+	}
 }
