@@ -1,0 +1,3 @@
+[submodule "01_GetTables/01_GetTables/Frontend/app-gethr-table"]
+	path = 01_GetTables/01_GetTables/Frontend/app-gethr-table
+	url = https://github.com/Ashwesh09/Web-Projects.git
