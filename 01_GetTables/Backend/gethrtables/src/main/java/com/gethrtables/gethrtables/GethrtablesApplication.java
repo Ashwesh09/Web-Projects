@@ -1,16 +1,14 @@
 package com.gethrtables.gethrtables;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
+import com.jio.digitalapi.app.platform.autoconfigure.DigitalApiPlatform;
+import com.jio.digitalworks.apps.platform.DigitalApiPlatformApp;
 
 //@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
-@SpringBootApplication
-@EnableSwagger2
-public class GethrtablesApplication {
+@DigitalApiPlatform
+public class GethrtablesApplication extends DigitalApiPlatformApp{
 
 	public static void main(String[] args) {
-		SpringApplication.run(GethrtablesApplication.class, args);
+		init(GethrtablesApplication.class, args);
 	}
 
 }

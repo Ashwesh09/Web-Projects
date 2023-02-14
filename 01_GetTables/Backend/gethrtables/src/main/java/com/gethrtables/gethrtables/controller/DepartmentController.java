@@ -4,6 +4,7 @@ import java.sql.SQLException;
 import java.util.Collections;
 import java.util.List;
 
+import com.jio.digitalapi.app.platform.autoconfigure.DigitalOpenApiController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,7 +15,7 @@ import com.gethrtables.gethrtables.models.Department;
 import com.gethrtables.gethrtables.repositories.DepartmentRepository;
 
 
-@RestController
+@DigitalOpenApiController
 @CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/department")
 public class DepartmentController {

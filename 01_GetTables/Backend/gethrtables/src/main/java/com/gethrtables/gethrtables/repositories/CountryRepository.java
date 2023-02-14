@@ -4,13 +4,14 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.jio.digitalapi.platform.core.service.annotation.DigitalApiDataService;
 import org.springframework.stereotype.Repository;
 
 import com.gethrtables.gethrtables.dao.CountryDAO;
 import com.gethrtables.gethrtables.models.Country;
 import com.gethrtables.gethrtables.util.DatabaseConnection;
 
-@Repository
+@DigitalApiDataService
 public class CountryRepository implements CountryDAO {
     Connection conn;
     public CountryRepository() throws SQLException {

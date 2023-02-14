@@ -1,5 +1,6 @@
 package com.gethrtables.gethrtables.repositories;
 
+import com.jio.digitalapi.platform.core.service.annotation.DigitalApiDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
@@ -13,7 +14,7 @@ import com.gethrtables.gethrtables.dao.DepartmentDAO;
 import com.gethrtables.gethrtables.mappers.DepartmentMapper;
 import com.gethrtables.gethrtables.models.Department;
 
-@Repository("departmentsMySqlRepo")
+@DigitalApiDataService("departmentsMySqlRepo")
 public class DepartmentRepository implements DepartmentDAO {
 
     @Autowired

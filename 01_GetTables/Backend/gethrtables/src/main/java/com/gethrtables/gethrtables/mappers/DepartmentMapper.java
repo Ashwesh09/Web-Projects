@@ -3,11 +3,12 @@ package com.gethrtables.gethrtables.mappers;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import com.jio.digitalapi.platform.core.service.annotation.DigitalApiDataMapper;
 import org.springframework.jdbc.core.RowMapper;
 
 import com.gethrtables.gethrtables.models.Department;
 
-
+@DigitalApiDataMapper
 public class DepartmentMapper implements RowMapper<Department> {
 	public Department mapRow(ResultSet result, int rowNum) throws SQLException {
 		Department department = new Department();
